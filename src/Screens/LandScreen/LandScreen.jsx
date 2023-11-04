@@ -13,7 +13,9 @@ export default function LandScreen() {
       <ContainerInfo>
         <h1>Find all your favorite Pokemon</h1>
         <p>You can know the type of Pokemon, its strengths, disadvantages and abilities</p>
-      <ButtonGo>Set Pokémons</ButtonGo>
+      <ButtonGo onClick={()=>(
+        window.location.href = "/home"
+      )}>Set Pokémons</ButtonGo>
   </ContainerInfo>
     </ContainerLand>
   )
