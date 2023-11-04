@@ -50,3 +50,26 @@ export const ContainerInfo = styled.div`
   top: 590px;
   left: 23px;
 `;
+export const ContainerListItem = styled.div`
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100% relative;
+  height: 100vh;
+  
+`;
+export const Content = styled.div`
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ max-width: max-content;
+  width: 730px relative;
+  height: 349px;
+
+ 
+`;
