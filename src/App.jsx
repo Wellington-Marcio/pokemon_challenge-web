@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import DataApi from './components/Data/DataApi'
-import LandScreen from './Screens/LandScreen/LandScreen'
-import HomeScreen from './Screens/HomeScreen/HomeScreen'
 import Navbar from './components/Navbar/Navbar'
+import { Outlet } from "react-router-dom";
 
 
 
@@ -12,10 +10,10 @@ function App() {
   return (
     <>
     <Navbar />
+    <Outlet />
+    
 
-    {/* <DataApi /> */}
-    <LandScreen />
-    {/* <HomeScreen /> */}
+    
     </>
   )
 }
