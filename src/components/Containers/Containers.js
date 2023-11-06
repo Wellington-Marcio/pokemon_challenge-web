@@ -19,7 +19,7 @@ export const ContainerLand = styled.div`
     rgba(253, 211, 45, 1) 0%,
     rgba(245, 219, 19, 1) 100%
   );
-  height: 100vh;
+  height: 100vh relative;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -37,6 +37,7 @@ export const ContainerImg = styled.image`
   height: 539px;
   top: 111px;
   left: 35px;
+  margin-top: 40px;
 `;
 
 export const ContainerInfo = styled.div`
