@@ -4,7 +4,8 @@ import {
   Content,
 } from "../../components/Containers/Containers";
 import SearchInput from "../../components/Search/Search";
-import PokemonCard from "../../components/Card/PokemonCard";
+// import PokemonCard from "../../components/Card/PokemonCard";
+import DataApi from "../../components/Card/DataApi";
 
 
 export default function HomeScreen() {
@@ -12,15 +13,16 @@ export default function HomeScreen() {
     <>
 
 
-      {/* <ContainerListItem>
-        {/* <SearchInput /> 
-        <h1>Pokemons</h1>
+      <ContainerListItem>
+       
+        <h1>Pokemons  choose your favorite</h1>  
+        <SearchInput />
         <Content>
-          <h1>CardPokemons</h1>
           
-          <PokemonCard />
+          
+          <DataApi/>
         </Content>
-      </ContainerListItem> */}
+      </ContainerListItem> 
     </>
   );
 }

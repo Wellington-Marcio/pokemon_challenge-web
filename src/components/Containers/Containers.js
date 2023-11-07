@@ -59,18 +59,20 @@ export const ContainerListItem = styled.div`
   align-items: center;
   max-width: 100%;
   width: 100% relative;
-  height: 100vh;
+  height: 100% relative;
+  grid-template-columns: repeat(3, 1fr);
   
 `;
 export const Content = styled.div`
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
  max-width: max-content;
   width: 730px relative;
   height: 349px;
+  
 
  
 `;
