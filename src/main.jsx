@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandScreen from './Screens/LandScreen/LandScreen';
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
-import DashScreen from './Screens/DashScreen/DashScreen';
+import ProfileScreen from './Screens/ProfileScreen/ProfileScreen';
 
 
 
@@ -14,8 +14,8 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       { path: "/", element: <LandScreen /> },
-      { path: "/home", element: <HomeScreen /> },
-      { path: "/dash", element: <DashScreen /> },
+      { path: "/home/", element: <HomeScreen /> },
+      { path: "/profile/:id", element: <ProfileScreen/> },
     ],
   },
 ]);

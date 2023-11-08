@@ -14,17 +14,23 @@ export default function Navbar() {
 
   const isLandScreen = getUrl.pathname === "/"
   const isHomeScreen = getUrl.pathname === "/home"
+  const isProfileScreen = getUrl.pathname === "/profile"
+
+
   return (
+  
     <>
     <ContainerNavbar>
       
-          <img src={logo} alt="logo" width="150" height="55" />
+          <img src={logo} alt="logo" width="150" height="55" onClick={()=> navigate("/home")} cursor:poiter="true"/>
     
         <Button onClick={function () {
-                navigate("/home")
+                navigate("/home" );
               }}>
+
                 {isLandScreen ? "Go!" : ""}
                 {isHomeScreen ? "Back" : ""}
+                {isProfileScreen ? "Back" : ""}
 
               </Button>
         

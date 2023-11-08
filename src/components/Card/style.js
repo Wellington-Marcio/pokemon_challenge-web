@@ -9,16 +9,17 @@ export const Card = styled.div`
   box-shadow: -1px 2px 8px rgba(0, 0, 0, 1.2);
   margin: 10px;
   padding: 4px;
+  cursor: pointer;
 `;
 
 export const ContainerInfo = styled.div`
   display: flex;
-  /* background-color: aqua; */
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height:160px;
-  width:250px;
+  width:220px;
 
 `;
 export const ContainerImg = styled.div`

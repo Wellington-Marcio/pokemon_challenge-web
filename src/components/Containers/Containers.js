@@ -43,36 +43,15 @@ export const ContainerImg = styled.image`
 export const ContainerInfo = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
+  justify-content: space-evenly;
   align-items: center;
-  max-width: max-content;
+  /* max-width: max-content; */
   width: 730px relative;
   height: 349px;
-  top: 590px;
-  left: 23px;
-`;
-export const ContainerListItem = styled.div`
-  display: flex;
-  
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  width: 100% relative;
-  height: 100% relative;
-  grid-template-columns: repeat(3, 1fr);
   
 `;
-export const Content = styled.div`
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
- max-width: max-content;
-  width: 730px relative;
-  height: 349px;
-  
+
 
  
-`;
