@@ -1,8 +1,7 @@
-# React + Vite
+<h1>Pokémon Challenge WeB</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Criado aplicação utilizando ReactJs com Vite.
+* utilizado hooks em navegção das paginas.
+* chamadas na Api Pokémon, renderizando dados na tela.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  *faltou criar finalizar pagina de profile.
